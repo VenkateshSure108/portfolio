@@ -1,8 +1,5 @@
 # Venkatesh Reddy Sure's Portfolio
 
-## Projects
-
-### Project 1: E-Commerce Website
 
 
 ## Contact
