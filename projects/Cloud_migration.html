@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cloud Migration</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1 style = "line-height:1.5; font-size: 40px"><a href="../index.html">End to End Data migration to Azure Cloud</a></h1>
+							<p></p>
+						</div>
+
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="../index.html">Home</a></li>
+							<li>
+								<a href="#">Projects ↓ </a>
+								<ul>
+									<li><a href="../projects/kafka_streaming.html">Fitness data Spark Streaming</a></li>
+									<li><a href="../projects/Cloud_migration.html">Azure End to End Data warehousing</a></li>
+									<!--<li>
+										<a href="#">Java Based Libraries</a>
+										<ul>
+											<li><a href="#">JWT Auth Token Auto Refresh - Redis</a></li>
+											<li><a href="#">Recovery/DLQ - Kafka</a></li>
+											<li><a href="#">Quartz Scheduler</a></li>
+											<li><a href="#">Maintenance Mitigation</a></li>
+										</ul>
+									</li>-->
+								</ul>
+							</li>
+						</ul>
+					</nav>
+
+				</section>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style2">
+					<!--<div class="title">No Sidebar</div>-->
+					<div class="container">
+
+						<!-- Content -->
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>Migrating on-premises SQL server data to cloud using Azure resources</h2>
+									</header>
+									
+									<a href="#" class="image centered">
+										<img src="../images/Azure_Project_Architecture-1.png" alt=""  style="border: 2px solid black; border-radius: 5px;" />
+									</a>
+                                    <ul class = "indent">
+										<li> In this project Azure Data Factory is used for data ingestion- ADF will connect to the on-prem SQL server to copy all the data to the initial landing container.</li>
+										<br><li>A low cost reliable data storage solution Azure Data Lake Gen 2 is used for initial arrival, storage and retrival of the data.</li>
+                                        <br><li>A medallion architecture is followed, for Extraction ADF is used, Databricks is used in silver and Gold layers for Transformation and finally for loading Azure Synapse is used.</li>
+                                        <br><li>Once the data is loaded in to the Synapse, using the POWER BI dashboards are created for the business.</li>
+                                        <br><li>Inaddition to the warehousing, data processing, application security and access governance is implemented by Azure Entra ID by creating the IAM roles and service principals.</li>
+									</ul>
+								</article>
+							</div>
+						<ul class="actions special">
+							<li><a href="../index.html" class="button style3 large">Home</a></li>
+							<li><a href="../projects.html" class="button style1 large">Projects</a></li>
+							<li><a href="https://flowcv.com/resume/3ajw66hig4" target="_blank" class="button style3 large">Resume</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
